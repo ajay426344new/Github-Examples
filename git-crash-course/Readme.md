@@ -9,3 +9,5 @@
 ##Stashing
 
 ##Statging
+
+##Cloning
