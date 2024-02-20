@@ -106,12 +106,3 @@ git config --global user.email johndoe@example.com
 ```
 
 ##edited using ssh methods
-
-## Branches
-
-```
-git branch
-git branch -a
-git checkout branch-name
-```
-
