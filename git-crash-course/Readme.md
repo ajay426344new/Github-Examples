@@ -37,7 +37,14 @@ git commit -a "Messge"
 ```sh
         git clone https://github.com/ajay426344sec/Github-Examples.git
 ```
+> You'll need to generate a personal access token(PAT) in order to push from local dev env.
+>https://github.com/settings/token
 
+## SSH
+
+```sh
+git clone git@github.com:ajay426344sec/Github-Examples.git
+```
 ## Testing
 
 ## Add
@@ -80,3 +87,12 @@ git config --global user.name "John Doe"
 git config --global user.email johndoe@example.com
 ```
 
+##edited using ssh methods
+
+## Branches
+
+```
+git branch
+git branch -a
+git checkout branch-name
+```
