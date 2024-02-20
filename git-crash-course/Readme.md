@@ -1,15 +1,70 @@
-##Commits
+## Git Hidden Folder
 
-##Merging
+There is a hidden folder called '.git', which tells that our project is in a git intialised repo.
 
-##Remoting
+```sh
+mkdir /Desktop/Git Projects/git-crash-course
 
-##Branches
+git init
+```
 
-##Stashing
+## Commits
 
-##Statging
+When we want to commit code or save the changes that we did in the code then we can use "git commit", which will open up the commit edit message in the editor 
 
-##Cloning
+## Merging
 
-##Testing
+## Remoting
+
+## Branches
+
+## Stashing
+
+## Statging
+
+## Cloning
+    We can clone three ways: HTTPS, SSH, Github CLI
+
+    Well make a temp directory to clone the codebase. 
+
+```sh
+    cd /Git Projects/git-crash-course
+```
+### HTTPS
+```sh
+        git clone https://github.com/ajay426344sec/Github-Examples.git
+```
+
+## Testing
+
+## Add
+
+When we want to stage changes that will be included in the commit
+We can use the . to add all possible file to the staging phase.
+```sh
+git add Readme.md
+```
+## Reset
+
+Reset allows you to move Staged changes to unstaged.
+This is useful when you want to revert the changes without commiting.
+```sh
+git add .
+git reset
+```
+>git reset will rrevert a git add
+
+## Status
+
+Git status shows you what files will or will not be commited.
+
+```sh
+git status
+```
+
+## Git Config file
+
+The git config file is what stores your global configurations for git such as email, name editor and more.
+Shoeking the contents of our .gitconfig file.
+```
+git cofig --list```
