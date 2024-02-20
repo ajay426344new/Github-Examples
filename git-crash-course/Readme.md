@@ -12,6 +12,9 @@ git init
 
 When we want to commit code or save the changes that we did in the code then we can use "git commit", which will open up the commit edit message in the editor 
 
+```
+git commit -a "Messge"
+```
 ## Merging
 
 ## Remoting
@@ -67,4 +70,13 @@ git status
 The git config file is what stores your global configurations for git such as email, name editor and more.
 Shoeking the contents of our .gitconfig file.
 ```
-git cofig --list```
+git cofig --list
+```
+
+ When you install Git on a machine, you're supposed to setup your name and email.
+
+```sh
+git config --global user.name "John Doe"
+git config --global user.email johndoe@example.com
+```
+
