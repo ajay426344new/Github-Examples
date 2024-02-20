@@ -17,11 +17,29 @@ git commit -a "Messge"
 ```
 ## Merging
 
-## Remoting
+## Remotes
 
+We can add remote but often you will just add remote via upstream, when adding a new branch and pushing it from local to repo.
+```sh
+git remote add ...
+git branch -u origin new-branch-name
+```
 ## Branches
 
+```sh
+git branch
+git branch -a
+git checkout branch-name
+```
 ## Stashing
+
+```sh
+git stash list
+git stash
+git stash save name-of-the-stash
+git stash apply
+git stash pop
+```
 
 ## Statging
 
@@ -96,3 +114,4 @@ git branch
 git branch -a
 git checkout branch-name
 ```
+
