@@ -95,7 +95,7 @@ git status
 The git config file is what stores your global configurations for git such as email, name editor and more.
 Shoeking the contents of our .gitconfig file.
 ```
-git cofig --list
+git config --list
 ```
 
  When you install Git on a machine, you're supposed to setup your name and email.
@@ -107,4 +107,4 @@ git config --global user.email johndoe@example.com
 
 ##edited using ssh methods
 
-##Test from differnet PC
+##Test from differnet
