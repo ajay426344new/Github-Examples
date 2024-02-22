@@ -53,7 +53,7 @@ git stash pop
 ```
 ### HTTPS
 ```sh
-        git clone https://github.com/ajay426344sec/Github-Examples.git
+        git clone https://github.com/ajay426344new/Github-Examples.git
 ```
 > You'll need to generate a personal access token(PAT) in order to push from local dev env.
 >https://github.com/settings/token
