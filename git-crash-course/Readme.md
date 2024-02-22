@@ -30,6 +30,7 @@ git branch -u origin new-branch-name
 git branch
 git branch -a
 git checkout branch-name
+git branch new-branch-name  //To create a new branch
 ```
 ## Stashing
 
@@ -53,7 +54,7 @@ git stash pop
 ```
 ### HTTPS
 ```sh
-        git clone https://github.com/ajay426344sec/Github-Examples.git
+        git clone https://github.com/ajay426344new/Github-Examples.git
 ```
 > You'll need to generate a personal access token(PAT) in order to push from local dev env.
 >https://github.com/settings/token
@@ -107,4 +108,4 @@ git config --global user.email johndoe@example.com
 
 ##edited using ssh methods
 
-##Test from differnet
+##Test from differnet brach
