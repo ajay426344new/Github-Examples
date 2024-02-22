@@ -30,6 +30,7 @@ git branch -u origin new-branch-name
 git branch
 git branch -a
 git checkout branch-name
+git branch new-branch-name  //To create a new branch
 ```
 ## Stashing
 
@@ -107,4 +108,4 @@ git config --global user.email johndoe@example.com
 
 ##edited using ssh methods
 
-##Test from differnet
+##Test from differnet brach
